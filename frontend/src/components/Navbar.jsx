@@ -28,14 +28,13 @@ const Navbar = () => {
        
       </div>
      
-      
-
       <nav className='flex gap-x-6 mr-[220px]'>
       <button className='bg-richblue-400 text-white rounded-md px-[15px] hover:bg-richblue-200'>
         Log In
       </button>
       <button className='font-semibold bg-richblue-400 rounded-md px-[15px] text-white  hover:bg-richblue-200'>
         Your Orders
+        
       </button>
       
 
