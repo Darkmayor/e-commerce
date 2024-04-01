@@ -2,6 +2,7 @@ import React from 'react';
 import { FaCartArrowDown } from "react-icons/fa";
 import logo from "../assets/Logo/online-shop.png";
 import { CiSearch } from "react-icons/ci";
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -29,9 +30,13 @@ const Navbar = () => {
       </div>
      
       <nav className='flex gap-x-6 mr-[220px]'>
-      <button className='bg-richblue-400 text-white rounded-md px-[15px] hover:bg-richblue-200'>
+      <Link className='bg-richblue-400 text-white rounded-md px-[15px] hover:bg-richblue-200'
+        to="Login"
+        type='submit'
+        
+      >
         Log In
-      </button>
+      </Link>
       <button className='font-semibold bg-richblue-400 rounded-md px-[15px] text-white  hover:bg-richblue-200'>
         Your Orders
         

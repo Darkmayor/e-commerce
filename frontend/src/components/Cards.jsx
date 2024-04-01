@@ -14,7 +14,7 @@ const Cards = () => {
   ];
 
   return (
-    <div className='flex ml-[60px] gap-x-5'>
+    <div className='flex flex-wrap ml-[8vw] gap-x-5'>
       {cartInfo.map((item, index) => (
         <Cart key={index} cartInfo={item} />
       ))}
